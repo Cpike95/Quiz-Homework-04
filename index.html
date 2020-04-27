@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#">View Highscores</a>
+            <p id="timer">Time: </p>
+    </div>
+
+    <div class="container">
+        <div id="openning">
+            <h1>Coding Quiz Challenge</h1>
+
+                <p>Try to answer the following code-related questions within the time limit.
+                    Keep in mind that the incorrect answers will penalize your scoreTime by 10 seconds!
+                </p>
+                <br>
+
+            <button type="button" class="btn btn-primary btn-lg" id="startBtn">Start Quiz</button>
+        </div>
+    </div>
+        <div id="question-container" class="hide" >
+            <div class="question">
+                <p id="quiz-question"> </p>
+            </div> 
+            <div id="answer">
+            
+                <button id="buttonn"> </button> 
+            </div>
+                <p id="correct-answer" class="hide">Correct!</p>
+                <p id="wrong-answer" class="hide">Wrong!</p>
+            </div>
+        </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

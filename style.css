@@ -1,0 +1,70 @@
+body {
+    padding:0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.header {
+    background-color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header p {
+    float: right;
+    display: inline-flex;
+    margin-bottom: 0;
+    margin-left: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    line-height: 4rem;
+
+}
+
+.header a {
+    display: inline-block;
+    line-height: 4rem;
+    margin-bottom: 0;
+    margin-left: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.container {
+    display: block;
+    text-align: center;
+    height: 500px;
+    width: 700px;
+    margin: 30px auto;
+    border: black;
+    border-radius: 8px;
+    padding: 25px
+}
+.hide {
+    display: none;
+}
+/* quiz stlyes*/
+#question-container {
+    text-align: center;
+    height: 500px;
+    width: 700px;
+    margin: 10px auto;
+    border: black;
+    border-radius: 8px;
+    padding: 25px;
+
+}
+.question {
+    font-size: 30px;
+}
+.buttons {
+    margin-top: 30px;
+}
+.btn {
+    width: 175px;
+    font-size: 15px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;  
+}
+
+/* Hide questions */
